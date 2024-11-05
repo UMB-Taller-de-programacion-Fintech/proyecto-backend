@@ -2,7 +2,7 @@ package com.example.demo.model.dto;
 
 public class UserDTO {
 
-    private Number _id;
+    private Long _id;
     private String firstName;
     private String lastName;
     private String email;
@@ -18,7 +18,7 @@ public class UserDTO {
     }
 
 
-    public void setId (Number _id) {
+    public void setId (Long _id) {
         this._id = _id;
     }
 
@@ -28,7 +28,7 @@ public class UserDTO {
         return firstName;
     }
 
-    public Number getId() {
+    public Long getId() {
         return _id;
     }
 
